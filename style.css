@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Monomakh&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.card{
+    padding: 1%;
+    margin: 1%;
+    font-family: "Raleway", serif;
+    width: 20%;
+    border: 1px solid gray;
+}
+.card > img{
+    width: 96%;
+    margin: 2%;
+}
+h1{
+    font-family: "Monomakh", serif;
+    text-align: center;
+}
+@media screen and (max-width: 1025px) {
+   .card{
+    width: 29%;
+   } 
+}
+
+ 
